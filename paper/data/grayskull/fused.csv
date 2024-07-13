@@ -1,0 +1,4 @@
+dimension, matrix_multiply, attention_scaling, reduce_max, reduce_max_other_cores, subtract_max, exponentiate, reduce_sum, reduce_sum_other_cores, normalize
+4096, 145.84, 20.18, 13.16, 40.18, 14.77, 539.14, 25.66, 51.21, 372.82
+2048, 50.62, 5.23, 3.37, 24.48, 3.51, 126.64, 6.46, 26.54, 69.32
+1024, 20.31, 1.51, 0.905, 12.79, 0.656, 33.72, 1.66, 13.64, 1.07

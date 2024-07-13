@@ -1,0 +1,246 @@
+@inproceedings{vaswani2017,
+	title        = {Attention is All you Need},
+	author       = {Vaswani, Ashish and Shazeer, Noam and Parmar, Niki and Uszkoreit, Jakob and Jones, Llion and Gomez, Aidan N and Kaiser, \L ukasz and Polosukhin, Illia},
+	year         = 2017,
+	booktitle    = {Advances in Neural Information Processing Systems},
+	publisher    = {Curran Associates, Inc.},
+	volume       = 30,
+	pages        = {},
+	url          = {https://proceedings.neurips.cc/paper_files/paper/2017/file/3f5ee243547dee91fbd053c1c4a845aa-Paper.pdf},
+	editor       = {I. Guyon and U. Von Luxburg and S. Bengio and H. Wallach and R. Fergus and S. Vishwanathan and R. Garnett}
+}
+@inproceedings{kitaev2020,
+	title        = {Reformer: The Efficient Transformer},
+	author       = {Nikita Kitaev and Lukasz Kaiser and Anselm Levskaya},
+	year         = 2020,
+	booktitle    = {International Conference on Learning Representations},
+	url          = {https://openreview.net/forum?id=rkgNKkHtvB}
+}
+@article{roy2021,
+	title        = {Efficient content-based sparse attention with routing transformers},
+	author       = {Roy, Aurko and Saffar, Mohammad and Vaswani, Ashish and Grangier, David},
+	year         = 2021,
+	journal      = {Transactions of the Association for Computational Linguistics},
+	publisher    = {MIT Press One Rogers Street, Cambridge, MA 02142-1209, USA journals-info~…},
+	volume       = 9,
+	pages        = {53--68}
+}
+@inproceedings{choromanski2021,
+	title        = {Rethinking Attention with Performers},
+	author       = {Krzysztof Marcin Choromanski and Valerii Likhosherstov and David Dohan and Xingyou Song and Andreea Gane and Tamas Sarlos and Peter Hawkins and Jared Quincy Davis and Afroz Mohiuddin and Lukasz Kaiser and David Benjamin Belanger and Lucy J Colwell and Adrian Weller},
+	year         = 2021,
+	booktitle    = {International Conference on Learning Representations},
+	url          = {https://openreview.net/forum?id=Ua6zuk0WRH}
+}
+@inproceedings{katharopoulos2020,
+	title        = {Transformers are {RNN}s: Fast Autoregressive Transformers with Linear Attention},
+	author       = {Katharopoulos, Angelos and Vyas, Apoorv and Pappas, Nikolaos and Fleuret, Fran{\c{c}}ois},
+	year         = 2020,
+	month        = {13--18 Jul},
+	booktitle    = {Proceedings of the 37th International Conference on Machine Learning},
+	publisher    = {PMLR},
+	series       = {Proceedings of Machine Learning Research},
+	volume       = 119,
+	pages        = {5156--5165},
+	url          = {https://proceedings.mlr.press/v119/katharopoulos20a.html},
+	editor       = {III, Hal Daumé and Singh, Aarti},
+	pdf          = {http://proceedings.mlr.press/v119/katharopoulos20a/katharopoulos20a.pdf},
+	abstract     = {Transformers achieve remarkable performance in several tasks but due to their quadratic complexity, with respect to the input’s length, they are prohibitively slow for very long sequences. To address this limitation, we express the self-attention as a linear dot-product of kernel feature maps and make use of the associativity property of matrix products to reduce the complexity from $\bigO{N^2}$ to $\bigO{N}$, where $N$ is the sequence length. We show that this formulation permits an iterative implementation that dramatically accelerates autoregressive transformers and reveals their relationship to recurrent neural networks. Our \emph{Linear Transformers} achieve similar performance to vanilla Transformers and they are up to 4000x faster on autoregressive prediction of very long sequences.}
+}
+@misc{wang2020,
+	title        = {Linformer: Self-Attention with Linear Complexity},
+	author       = {Sinong Wang and Belinda Z. Li and Madian Khabsa and Han Fang and Hao Ma},
+	year         = 2020,
+	url          = {https://arxiv.org/abs/2006.04768},
+	eprint       = {2006.04768},
+	archiveprefix = {arXiv},
+	primaryclass = {cs.LG}
+}
+@misc{beltagy2020,
+	title        = {Longformer: The Long-Document Transformer},
+	author       = {Iz Beltagy and Matthew E. Peters and Arman Cohan},
+	year         = 2020,
+	url          = {https://arxiv.org/abs/2004.05150},
+	eprint       = {2004.05150},
+	archiveprefix = {arXiv},
+	primaryclass = {cs.CL}
+}
+@inproceedings{chen2021,
+	title        = {Scatterbrain: Unifying Sparse and Low-rank Attention},
+	author       = {Chen, Beidi and Dao, Tri and Winsor, Eric and Song, Zhao and Rudra, Atri and R\'{e}, Christopher},
+	year         = 2021,
+	booktitle    = {Advances in Neural Information Processing Systems},
+	publisher    = {Curran Associates, Inc.},
+	volume       = 34,
+	pages        = {17413--17426},
+	url          = {https://proceedings.neurips.cc/paper_files/paper/2021/file/9185f3ec501c674c7c788464a36e7fb3-Paper.pdf},
+	editor       = {M. Ranzato and A. Beygelzimer and Y. Dauphin and P.S. Liang and J. Wortman Vaughan}
+}
+@inproceedings{zaheer2020,
+	title        = {Big Bird: Transformers for Longer Sequences},
+	author       = {Zaheer, Manzil and Guruganesh, Guru and Dubey, Kumar Avinava and Ainslie, Joshua and Alberti, Chris and Ontanon, Santiago and Pham, Philip and Ravula, Anirudh and Wang, Qifan and Yang, Li and Ahmed, Amr},
+	year         = 2020,
+	booktitle    = {Advances in Neural Information Processing Systems},
+	publisher    = {Curran Associates, Inc.},
+	volume       = 33,
+	pages        = {17283--17297},
+	url          = {https://proceedings.neurips.cc/paper_files/paper/2020/file/c8512d142a2d849725f31a9a7a361ab9-Paper.pdf},
+	editor       = {H. Larochelle and M. Ranzato and R. Hadsell and M.F. Balcan and H. Lin}
+}
+@inproceedings{dao2022,
+	title        = {FlashAttention: Fast and Memory-Efficient Exact Attention with IO-Awareness},
+	author       = {Dao, Tri and Fu, Dan and Ermon, Stefano and Rudra, Atri and R\'{e}, Christopher},
+	year         = 2022,
+	booktitle    = {Advances in Neural Information Processing Systems},
+	publisher    = {Curran Associates, Inc.},
+	volume       = 35,
+	pages        = {16344--16359},
+	url          = {https://proceedings.neurips.cc/paper_files/paper/2022/file/67d57c32e20fd0a7a302cb81d36e40d5-Paper-Conference.pdf},
+	editor       = {S. Koyejo and S. Mohamed and A. Agarwal and D. Belgrave and K. Cho and A. Oh}
+}
+@article{vasiljevic2021,
+	title        = {Compute Substrate for Software 2.0},
+	author       = {Vasiljevic, Jasmina and Bajic, Ljubisa and Capalija, Davor and Sokorac, Stanislav and Ignjatovic, Dragoljub and Bajic, Lejla and Trajkovic, Milos and Hamer, Ivan and Matosevic, Ivan and Cejkov, Aleksandar and Aydonat, Utku and Zhou, Tony and Gilani, Syed Zohaib and Paiva, Armond and Chu, Joseph and Maksimovic, Djordje and Chin, Stephen Alexander and Moudallal, Zahi and Rakhmati, Akhmed and Nijjar, Sean and Bhullar, Almeet and Drazic, Boris and Lee, Charles and Sun, James and Kwong, Kei-Ming and Connolly, James and Dooley, Miles and Farooq, Hassan and Chen, Joy Yu Ting and Walker, Matthew and Dabiri, Keivan and Mabee, Kyle and Lal, Rakesh Shaji and Rajatheva, Namal and Retnamma, Renjith and Karodi, Shripad and Rosen, Daniel and Munoz, Emilio and Lewycky, Andrew and Knezevic, Aleksandar and Kim, Raymond and Rui, Allan and Drouillard, Alexander and Thompson, David},
+	year         = 2021,
+	journal      = {IEEE Micro},
+	volume       = 41,
+	number       = 2,
+	pages        = {50--55},
+	doi          = {10.1109/MM.2021.3061912},
+	keywords     = {Artificial intelligence;Software;Computer architecture;Data transfer;Runtime;Random access memory;Computational modeling;Substrates;machine learning;compilers;multi-core architecture}
+}
+@misc{nvidia2022,
+	title        = {NVIDIA H100 Tensor Core GPU Architecture},
+	author       = {NVIDIA Corporation},
+	year         = 2022,
+	url          = {https://resources.nvidia.com/en-us-tensor-core},
+	note         = {Accessed: 2024-07-11}
+}
+@misc{lam2023,
+	title        = {Nvidia’s H100: Funny L2 and Tons of Bandwidth},
+	author       = {Chester Lam},
+	year         = 2023,
+	note         = {Accessed: 2024-07-12},
+	howpublished = {\url{https://chipsandcheese.com/2023/07/02/nvidias-h100-funny-l2-and-tons-of-bandwidth/}}
+}
+@inproceedings{10.1145/642089.642111,
+	title        = {A preliminary architecture for a basic data-flow processor},
+	author       = {Dennis, Jack B. and Misunas, David P.},
+	year         = 1974,
+	booktitle    = {Proceedings of the 2nd Annual Symposium on Computer Architecture},
+	publisher    = {Association for Computing Machinery},
+	address      = {New York, NY, USA},
+	series       = {ISCA '75},
+	pages        = {126–132},
+	doi          = {10.1145/642089.642111},
+	isbn         = 9781450373661,
+	url          = {https://doi.org/10.1145/642089.642111},
+	abstract     = {A processor is described which can achieve highly parallel execution of programs represented in data-flow form. The language implemented incorporates conditional and iteration mechanisms, and the processor is a step toward a practical data-flow processor for a Fortran-level data-flow language. The processor has a unique architecture which avoids the problems of processor switching and memory/processor interconnecion that usually limit the degree of realizable concurrent processing. The architecture offers an unusual solution to the problem of structuring and managing a two-level memory system.},
+	numpages     = 7
+}
+@article{dennis1974,
+	title        = {A preliminary architecture for a basic data-flow processor},
+	author       = {Dennis, Jack B. and Misunas, David P.},
+	year         = 1974,
+	month        = {dec},
+	journal      = {SIGARCH Comput. Archit. News},
+	publisher    = {Association for Computing Machinery},
+	address      = {New York, NY, USA},
+	volume       = 3,
+	number       = 4,
+	pages        = {126–132},
+	doi          = {10.1145/641675.642111},
+	issn         = {0163-5964},
+	url          = {https://doi.org/10.1145/641675.642111},
+	issue_date   = {December 1974},
+	abstract     = {A processor is described which can achieve highly parallel execution of programs represented in data-flow form. The language implemented incorporates conditional and iteration mechanisms, and the processor is a step toward a practical data-flow processor for a Fortran-level data-flow language. The processor has a unique architecture which avoids the problems of processor switching and memory/processor interconnecion that usually limit the degree of realizable concurrent processing. The architecture offers an unusual solution to the problem of structuring and managing a two-level memory system.},
+	numpages     = 7
+}
+@misc{tenstorrent-cards,
+	title        = {Commercially available Tenstorrent cards},
+	author       = {Tenstorrent},
+	year         = 2024,
+	publisher    = {Tenstorrent Website},
+	howpublished = {\url{https://tenstorrent.com/cards/}}
+}
+@misc{grayskull-architecture,
+	title        = {Tenstorrent Grayskull Architecture},
+	author       = {Tenstorrent},
+	year         = 2024,
+	publisher    = {GitHub},
+	howpublished = {\url{https://github.com/tenstorrent/tt-metal/blob/main/METALIUM_GUIDE.md}}
+}
+@misc{grayskull-noc,
+	title        = {Tenstorrent Grayskull Network-on-Chip},
+	author       = {Tenstorrent},
+	year         = 2024,
+	publisher    = {TT-Buda Documentation},
+	howpublished = {\url{https://docs.tenstorrent.com/tenstorrent/v/tt-buda/hardware}}
+}
+@misc{tt-metalium,
+	title        = {{TT-Metalium}},
+	author       = {Tenstorrent},
+	year         = 2024,
+	publisher    = {GitHub},
+	howpublished = {\url{https://github.com/tenstorrent/tt-metal}}
+}
+@misc{tt-buda,
+	title        = {{TT-Buda}},
+	author       = {Tenstorrent},
+	year         = 2024,
+	publisher    = {GitHub},
+	howpublished = {\url{https://github.com/tenstorrent/tt-buda}}
+}
+@inproceedings{chen2018,
+	title        = {{TVM}: An Automated {End-to-End} Optimizing Compiler for Deep Learning},
+	author       = {Tianqi Chen and Thierry Moreau and Ziheng Jiang and Lianmin Zheng and Eddie Yan and Haichen Shen and Meghan Cowan and Leyuan Wang and Yuwei Hu and Luis Ceze and Carlos Guestrin and Arvind Krishnamurthy},
+	year         = 2018,
+	month        = oct,
+	booktitle    = {13th USENIX Symposium on Operating Systems Design and Implementation (OSDI 18)},
+	publisher    = {USENIX Association},
+	address      = {Carlsbad, CA},
+	pages        = {578--594},
+	isbn         = {978-1-939133-08-3},
+	url          = {https://www.usenix.org/conference/osdi18/presentation/chen}
+}
+@inproceedings{paszke2019,
+	title        = {PyTorch: An Imperative Style, High-Performance Deep Learning Library},
+	author       = {Paszke, Adam and Gross, Sam and Massa, Francisco and Lerer, Adam and Bradbury, James and Chanan, Gregory and Killeen, Trevor and Lin, Zeming and Gimelshein, Natalia and Antiga, Luca and Desmaison, Alban and Kopf, Andreas and Yang, Edward and DeVito, Zachary and Raison, Martin and Tejani, Alykhan and Chilamkurthy, Sasank and Steiner, Benoit and Fang, Lu and Bai, Junjie and Chintala, Soumith},
+	year         = 2019,
+	booktitle    = {Advances in Neural Information Processing Systems},
+	publisher    = {Curran Associates, Inc.},
+	volume       = 32,
+	pages        = {},
+	url          = {https://proceedings.neurips.cc/paper_files/paper/2019/file/bdbca288fee7f92f2bfa9f7012727740-Paper.pdf},
+	editor       = {H. Wallach and H. Larochelle and A. Beygelzimer and F. d\textquotesingle Alch\'{e}-Buc and E. Fox and R. Garnett}
+}
+@misc{abadi2015,
+	title        = {{TensorFlow}: Large-Scale Machine Learning on Heterogeneous Systems},
+	author       = {Mart\'{i}n~Abadi and Ashish~Agarwal and Paul~Barham and Eugene~Brevdo and Zhifeng~Chen and Craig~Citro and Greg~S.~Corrado and Andy~Davis and Jeffrey~Dean and Matthieu~Devin and Sanjay~Ghemawat and Ian~Goodfellow and Andrew~Harp and Geoffrey~Irving and Michael~Isard and Yangqing Jia and Rafal~Jozefowicz and Lukasz~Kaiser and Manjunath~Kudlur and Josh~Levenberg and Dandelion~Man\'{e} and Rajat~Monga and Sherry~Moore and Derek~Murray and Chris~Olah and Mike~Schuster and Jonathon~Shlens and Benoit~Steiner and Ilya~Sutskever and Kunal~Talwar and Paul~Tucker and Vincent~Vanhoucke and Vijay~Vasudevan and Fernanda~Vi\'{e}gas and Oriol~Vinyals and Pete~Warden and Martin~Wattenberg and Martin~Wicke and Yuan~Yu and Xiaoqiang~Zheng},
+	year         = 2015,
+	url          = {https://www.tensorflow.org/},
+	note         = {Software available from tensorflow.org}
+}
+@misc{mm-implementation,
+	title        = {Implementation of Matrix Multiplication on Multiple Cores of Tenstorrent Grayskull},
+	author       = {Tenstorrent},
+	year         = 2024,
+	publisher    = {GitHub},
+	howpublished = {\url{https://github.com/tenstorrent/tt-metal/blob/main/tt_metal/programming_examples/matmul_multicore_reuse_mcast/matmul_multicore_reuse_mcast.cpp}}
+}
+@misc{meta2024,
+	title        = {Introducing Meta Llama 3: The most capable openly available LLM to date},
+	author       = {{Meta}},
+	year         = 2024,
+	url          = {https://ai.meta.com/blog/meta-llama-3/},
+	note         = {Accessed: 2024-07-11}
+}
+@techreport{waterman2014,
+	title        = {The RISC-V Instruction Set Manual, Volume I: User-Level ISA, Version 2.0},
+	author       = {Waterman, Andrew and Lee, Yunsup and Patterson, David A. and Asanović, Krste},
+	year         = 2014,
+	month        = {May},
+	number       = {UCB/EECS-2014-54},
+	url          = {http://www2.eecs.berkeley.edu/Pubs/TechRpts/2014/EECS-2014-54.html},
+	institution  = {EECS Department, University of California, Berkeley}
+}
