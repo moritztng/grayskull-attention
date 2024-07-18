@@ -5,6 +5,8 @@
 \usetikzlibrary{fit}
 \usepackage{caption}
 \usepackage{url}
+\usepackage{hyperref}
+\usepackage[hyphenbreaks]{breakurl}
 \usetikzlibrary{positioning}
 \usepackage{pgfplots}
 \pgfplotsset{compat=1.9}
@@ -33,6 +35,8 @@ To improve the complexity, approximate attention mechanisms have been proposed, 
 The recent increase in demand for AI applications motivated the design of new hardware architectures to accelerate highly parallel AI workloads. One of those is the Tenstorrent Grayskull architecture \cite{vasiljevic2021, tenstorrent-cards, grayskull-architecture, grayskull-noc}, commercially available for example as a Grayskull e150 PCIe card. Currently, it is approximately \(30\times\) cheaper than the Nvidia H100 PCIe card \cite{nvidia2022} (a state-of-the-art GPU). Nevertheless, the Grayskull e150 provides \(120\,\text{MB}\) SRAM (120 Tensix cores with \(1\,\text{MB}\) each) compared to only \(80\,\text{MB}\) of the Nvidia H100 PCIe (114 Streaming Multiprocessors with \(256\,\text{KB}\) L1 each and \(50\,\text{MB}\) L2 shared). 
 
 This background provided the motivation for this work, which includes the implementation of a \textbf{dedicated Softmax kernel} leveraging the large SRAM of the Grayskull e150, as well as a \textbf{fused kernel} combining matrix multiplication, attention score scaling and Softmax operations. The fused kernel reduces overhead of dispatching kernels and of moving inputs/outputs from separate kernels to and from DRAM.
+
+The code is available at \url{https://github.com/moritztng/grayskull-attention}.
 
 \begin{figure}[h]
 \centering
